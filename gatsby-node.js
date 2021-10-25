@@ -26,3 +26,22 @@ async function getData() {
 		})
 }	)
 }
+
+//pokemon stuff 
+const axios = require("axios")
+const get = endpoint => axios.get(`https://pokeapi.co/api/v2${endpoint}`)
+const getPokemonData = names =>
+  Promise.all(
+    names.map(async name => {
+      const { data: pokemon } = await get(`/pokemon/${name}`)
+      return { ...pokemon }
+    })
+  )
+exports.createPages = async ({ actions: { createPage } }) => {
+  const allPokemon = await getPokemonData(["mew", "ditto", "squirtle", "torchic"])
+  createPage({
+    path: `/pokemon`,
+    component: require.resolve("./src/template/all-pokemon.js"),
+    context: { allPokemon },
+  })
+}
