@@ -6,6 +6,8 @@ module.exports = {
   plugins: [
     "gatsby-plugin-image",
     "gatsby-plugin-sharp",
+    "gatsby-plugin-styled-components",
+    `gatsby-transformer-sharp`,
     {
       resolve: "gatsby-source-filesystem",
       options: {
@@ -13,11 +15,7 @@ module.exports = {
         path: `${__dirname}/blog`,
       }
     },
-  ],
-};
-module.exports = {
-  plugins: [
-    "gatsby-plugin-sharp",
+
     {
       resolve: `gatsby-source-wordpress`,
       options: {
