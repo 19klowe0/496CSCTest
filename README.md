@@ -32,7 +32,7 @@
     Your site is now running at http://localhost:8000!
 
     Edit `src/pages/index.js` to see your site update in real-time!
-3.5 **Custimized the navigation bar, added a Pokemon API, and connected to word press"
+
 
 4.  **Learn more**
 
@@ -47,4 +47,5 @@
     - [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
 
     - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+5.  **Custimized the navigation bar, added a Pokemon API, and connected to word press**
 
