@@ -4,7 +4,7 @@
   </a>
 </p>
 <h1 align="center">
-  Gatsby minimal starter
+  Gatsby minimal starter + Extra 
 </h1>
 
 ## 🚀 Quick start
@@ -32,6 +32,7 @@
     Your site is now running at http://localhost:8000!
 
     Edit `src/pages/index.js` to see your site update in real-time!
+3.5 **Custimized the navigation bar, added a Pokemon API, and connected to word press"
 
 4.  **Learn more**
 
@@ -47,8 +48,3 @@
 
     - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
 
-## 🚀 Quick start (Gatsby Cloud)
-
-Deploy this starter with one click on [Gatsby Cloud](https://www.gatsbyjs.com/cloud/):
-
-[<img src="https://www.gatsbyjs.com/deploynow.svg" alt="Deploy to Gatsby Cloud">](https://www.gatsbyjs.com/dashboard/deploynow?url=https://github.com/gatsbyjs/gatsby-starter-minimal)
